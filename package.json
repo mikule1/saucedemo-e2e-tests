@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-e2e-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui-tests.spec.js",
+    "test:api": "playwright test tests/api-tests.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
